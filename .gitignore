@@ -1,24 +1,56 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+npm-debug.log
+node_modules/
+sftp-config.json
+config.json
+public/src/nodebb.min.js
+!src/views/config.json
+public/css/*.css
+*.sublime-project
+*.sublime-workspace
+.project
+*.swp
+Vagrantfile
+.vagrant
+provision.sh
+*.komodoproject
+.DS_Store
+feeds/recent.rss
 
-# Folders
-_obj
-_test
+logs/
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+pidfile
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
+# templates
+/public/templates
 
-_testmain.go
+/public/uploads
+/public/sounds
 
-*.exe
-*.test
-*.prof
+# compiled files
+/public/stylesheet.css
+/public/admin.css
+/public/nodebb.min.js
+/public/nodebb.min.js.map
+/public/acp.min.js
+/public/acp.min.js.map
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+*.iml
+
+## Directory-based project format:
+.idea/
+.vscode/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Transifex
+tx.exe
+.transifexrc
+
+# docker build
+dockerlize/build
+
+# OneAPM
+oneapm.js
