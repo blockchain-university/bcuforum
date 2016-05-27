@@ -55,3 +55,6 @@ dockerlize/build
 # OneAPM
 oneapm.js
 nginx.conf
+
+*.box
+
